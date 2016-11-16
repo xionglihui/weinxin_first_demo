@@ -12,6 +12,7 @@ var  sendrequest=function(a){
               'Content-Type': 'application/json',
               "apikey":"e325c29be2b8440f20aa45b04131383f"
             },
+            
             data:{
                 "page":that.data.news_page,
                 "num":20
