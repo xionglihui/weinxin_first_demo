@@ -1,0 +1,39 @@
+/**index.wxss**/
+.indexcss{
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner{
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.news_title{
+  width: 100%;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 16px;
+  text-align: left;
+  font-size: 15px;
+  border-color: cornflowerblue;
+}
+

@@ -1,0 +1,56 @@
+{
+  "pages":[    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/invest/invest" ,
+    "pages/property/property",
+    "pages/mes/mes"
+  ],
+  "window":{
+    "backgroundTextStyle":"#b1b1b1",
+    "enablePullDownRefresh":"true",
+    "navigationBarBackgroundColor": "#ff7460",
+    "navigationBarTitleText": "娱乐资讯",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#8a8a8a",
+    "selectedColor": "#ff7460",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list":[
+      {
+        "text":"娱乐新闻",
+        "pagePath":"pages/index/index",
+        "iconPath":"/images/rbt_main_choicenesst_wite.png",
+        "selectedIconPath":"/images/rbt_main_choiceness_red.png",
+        "iconColor":"#8a8a8a",
+        "selectedColor":"#ff7460"
+      },
+      {
+        "text":"美女图片",
+        "pagePath":"pages/invest/invest",
+        "iconPath":"/images/rbt_main_invest_wite.png",
+        "selectedIconPath":"/images/rbt_main_invest_red.png",
+        "iconColor":"#8a8a8a",
+        "selectedColor":"#ff7460"
+      },
+      {
+        "text":"搞笑段子",
+        "pagePath":"pages/property/property",
+        "iconPath":"/images/rbt_main_account_wite.png",
+        "selectedIconPath":"/images/rbt_main_account_red.png",
+        "iconColor":"#8a8a8a",
+        "selectedColor":"#ff7460"
+      },
+      {
+        "text":"微信精选",
+        "pagePath":"pages/mes/mes",
+        "iconPath":"/images/rbt_main_more_wite.png",
+        "selectedIconPath":"/images/rbt_main_more_red.png",
+         "iconColor":"#8a8a8a",
+        "selectedColor":"#ff7460"
+      }
+    ]
+  }
+}

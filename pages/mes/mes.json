@@ -1,0 +1,9 @@
+{
+
+    "backgroundTextStyle":"#b1b1b1",
+    "enablePullDownRefresh":"true",
+    "navigationBarBackgroundColor": "#ff7460",
+    "navigationBarTitleText": "微信精选",
+    "navigationBarTextStyle":"white"
+
+}

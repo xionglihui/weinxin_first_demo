@@ -1,0 +1,13 @@
+<view width="100%">
+<loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中... </loading>
+<scroll-view style="height: 600px;"  scroll-y="true" bindscrolltolower="lower"> 
+<view wx:for="{{newslistdata}}" wx:for-item="item" width="100%"  >
+<view width="100%" style="display:block">
+<image src="{{item.picUrl}}" mode="aspectFill"class="style_image"></image></view>
+<view class="test">
+<text class="view_hd">{{item.title}}</text>
+</view>
+</view>
+</scroll-view>
+</view>

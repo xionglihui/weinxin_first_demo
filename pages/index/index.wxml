@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="indexcss" >
+<loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中... </loading>
+<scroll-view style="height: 600px;"  scroll-y="true" bindscrolltolower="lower">
+<swiper class="banner" indicator-dots="true"  autoplay="true" current="0" interval="2000" duration="1000">
+<block wx:for="{{bannerimgs}}">
+    <swiper-item>
+        <image class="banner" src="{{item}}"/>
+    </swiper-item>
+</block>
+</swiper>
+<view wx:for="{{newslist}}" wx:for-item="item" with="100%">
+<view>
+<a class="news_title" href="{{item.url}}">{{item.title}}</a>
+</view>
+</view>
+</scroll-view>
+</view>

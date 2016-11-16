@@ -1,0 +1,9 @@
+{
+
+    "backgroundTextStyle":"#b1b1b1",
+    "enablePullDownRefresh":"true",
+    "navigationBarBackgroundColor": "#ff7460",
+    "navigationBarTitleText": "娱乐新闻",
+    "navigationBarTextStyle":"white"
+
+}
