@@ -17,6 +17,18 @@ var   sendrequest=function(a){
                 var newslistdata=res.data.newslist;
                 that.setData({newslistdata:newslistdata,hidden:true});
                 that.update();
+                wx.redirectTo({
+
+                  success: function(res){
+                    // success
+                  },
+                  fail: function() {
+                    // fail
+                  },
+                  complete: function() {
+                    // complete
+                  }
+                })
             }
       })
 }
